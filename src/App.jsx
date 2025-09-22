@@ -11,10 +11,13 @@ import Allproduct from './allpage/Allproduct';
 const App = () => {
   return (
     <>
-    
+    {/* <Home/> */}
        <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="/about" element={<About />} />
+        <Route path="/contact" element={<Contact />} />
+        <Route path='/about' element={<About/>}/>
+        <Route path='/product' element={<Product/>}/>
+
       </Routes>
       {/* <Pricing/> */}
       {/* <Contact/> */}

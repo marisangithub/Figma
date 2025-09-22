@@ -1,5 +1,7 @@
 import React from 'react'
 import { useState } from 'react'
+import Contact from './contactpage/Contact';
+import { Route,Routes,Link } from 'react-router-dom';
 
 const Nav = () => {
 const [open, setOpen] = useState(false);
@@ -36,9 +38,9 @@ const [open, setOpen] = useState(false);
 
                             {/* Right side */}
                             <div className="d-flex align-items-center gap-3 position-relative">
-                                <button className="btn btn-outline-light rounded-pill px-4">
+                               <Link to='/contact'> <button className="btn btn-outline-light rounded-pill px-4">
                                     CONTACT US
-                                </button>
+                                </button></Link>
 
                                 {/* Hamburger Button */}
                                 <div
@@ -86,6 +88,9 @@ const [open, setOpen] = useState(false);
                         </div>
                     </nav>
                 </div>
+                <Routes>
+                    <Route path='/contact' element={<Contact/>} />
+                </Routes>
       
     </>
   )

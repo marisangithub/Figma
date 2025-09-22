@@ -54,9 +54,9 @@ const Home = () => {
 
                             {/* Right side */}
                             <div className="d-flex align-items-center gap-3 position-relative">
-                                <button className="btn btn-outline-light rounded-pill px-4">
+                             <Link to='/contact'>   <button className="btn btn-outline-light rounded-pill px-4">
                                     CONTACT US
-                                </button>
+                                </button></Link>
 
                                 {/* Hamburger Button */}
                                 <div
@@ -304,12 +304,9 @@ const Home = () => {
                 >
                     <ExploreSection />
                 </div>
+                 <Footer />
             </div>
-            <Footer />
-<Routes>
-    <Route path="/" element={<Home />} />
-    <Route path='/about' element={<About/>}/>
-</Routes>
+           
         </>
     );
 }
