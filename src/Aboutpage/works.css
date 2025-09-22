@@ -1,0 +1,60 @@
+.how-it-works {
+  background-color: #1f2529;
+  color: #d9c29c; 
+  font-family: serif;
+  height:100vh;
+  width: 100%;
+}
+
+
+.step-box {
+  border: 1px solid rgba(217, 194, 156, 0.4);
+  border-radius: 6px;
+  background-color: transparent;
+  transition: 0.3s ease;
+  width: 300px;
+  height: 350px;
+  padding: 20px;          /* spacing inside the box */
+  display: flex;
+  flex-direction: column;
+  justify-content: right; /* stack icon, title, description vertically */
+  gap: 10px;              /* spacing between items */
+}
+
+
+.step-box:hover {
+  background-color: rgba(217, 194, 156, 0.1);
+  transform: translateY(-5px);
+}
+
+.step-box h5 {
+  font-size: 18px;
+  font-weight: 600;
+  margin-top: 10px;
+}
+
+.step-box p {
+  font-size: 14px;
+  color: #bbb;
+}
+
+.btn-start {
+  background-color: #d9c29c;
+  border: none;
+  color: #1f2529;
+  padding: 10px 25px;
+  font-weight: bold;
+  border-radius: 20px;
+  transition: 0.3s ease;
+}
+
+.btn-start:hover {
+  background-color: #c5a87f;
+}
+.margin{
+    margin-top: 20px;
+}
+.justification{
+    justify-content: flex-start;
+}
+

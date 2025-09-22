@@ -1,0 +1,129 @@
+/* Top nav styles */
+.experience-nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;       /* vertically center items */
+  gap: 40px;
+  background: #e0e0e0;       /* same light gray bg */
+  height: 6vh;               /* fixed height */
+  padding: 0 30px;           /* only left/right padding */
+  font-family: "Georgia", serif;
+  box-sizing: border-box;    /* ensures padding doesn't break height */
+}
+
+.nav-item {
+  font-size: 16px;
+  color: #999;
+  cursor: pointer;
+  transition: color 0.3s ease;
+  line-height: 1;            /* avoids pushing height */
+}
+
+.nav-item:hover {
+  color: #333;
+}
+
+.ancor{
+    text-decoration: none;
+    color: #555;
+}
+.ancor:hover{
+    color:#1c1a1a;
+}
+.ancor:active{
+    color: black;
+}
+
+.experience {
+  padding: 40px;
+  background: #f9f9f9;
+}
+
+/* Header (full width at top) */
+.experience-header {
+  margin-bottom: 30px;
+}
+
+.experience-title {
+  font-size: 32px;
+  font-weight: bold;
+  line-height: 1.4;
+  margin-bottom: 15px;
+  color: #173c36;
+}
+
+.experience-subtitle {
+  font-size: 16px;
+  color: #555;
+}
+
+/* Content row (thoughts + feature grid) */
+.experience-content {
+  display: flex;
+  gap: 40px;
+  align-items: flex-start;
+}
+
+/* Thoughts card */
+.thoughts-card {
+  background-image: url("./productimage/exper.svg");
+  background-size: cover;
+  background-position: center;
+  color: #1c1a1a;
+  padding: 30px;
+  border-radius: 8px;
+  height: 280px;
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.thoughts-card h4 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.thoughts-card p {
+  font-size: 14px;
+  line-height: 1.4;
+}
+
+/* Right feature grid */
+.experience-right {
+  flex: 1;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+
+.feature-card {
+  background: #fff;
+  border-radius: 8px;
+  padding: 15px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+  text-align: left;
+  transition: transform 0.2s ease;
+}
+
+.feature-card:hover {
+  transform: translateY(-4px);
+}
+
+.feature-card img {
+  width: 60px;
+  height: 60px;
+  margin-bottom: 10px;
+  object-fit: cover;
+}
+
+.feature-card h5 {
+  font-size: 16px;
+  font-weight: bold;
+  margin-bottom: 8px;
+}
+
+.feature-card p {
+  font-size: 14px;
+  color: #555;
+}

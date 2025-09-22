@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="40" height="50" viewBox="0 0 64 80" fill="white">
+  <!-- Circular rosette -->
+  <circle cx="32" cy="20" r="12"></circle>
+  <!-- Ribbon tails -->
+  <path d="M24 32 L20 60 L32 50 L44 60 L40 32 Z"></path>
+</svg>

@@ -1,0 +1,36 @@
+.pricing-bg{
+    background-image: url("./image/pricingbg.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: repeat;
+    width: 100%;
+    height: 50vh;
+}
+
+.tick-green {
+  color: green !important;
+  font-weight: bold;
+}
+.tb-txtcol{
+    color:#e1ecf1;
+}
+.addonspg{
+  background-color: white;
+  height: 80vh;
+}
+.headp{
+  color: black;
+  font-family: serif;
+  margin-top: 10vh;
+
+}
+.form-check-input:checked {
+  background-color: #d35400;
+  border-color: #d35400;
+}
+
+.showcase-wrapper {
+  width: 90%; /* adjust as needed */
+  left: 70px;
+  top: 1600px;
+}

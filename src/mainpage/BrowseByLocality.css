@@ -1,0 +1,62 @@
+.browse-by-locality .thumb-btn {
+  border: 0;
+  border-radius: 50%;
+  overflow: hidden;
+  width: 56px;
+  height: 56px;
+  padding: 0;
+  cursor: pointer;
+}
+.browse-by-locality .main-image {
+  width: 100%;
+  height: 400px;          /* set a fixed height you want */
+  object-fit: cover;      /* ensures it fills without distortion */
+  display: block;
+  border-radius: 1.5rem;  /* optional: match your rounded corners */
+}
+
+.browse-by-locality .thumb-btn img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+.browse-by-locality .thumb-btn.active {
+  border: 3px solid #fff;
+}
+
+.browse-by-locality .nav-btn {
+  width: 40px;
+  height: 40px;
+  border: 1px solid #fff;
+  background: transparent;
+  border-radius: 50%;
+  color: #fff;
+  cursor: pointer;
+  position: relative;
+  z-index: 100;
+}
+
+.browse-by-locality .nav-btn:hover {
+  background: rgba(255, 255, 255, 0.15);
+}
+.locality-row {
+  gap: 2rem; /* gap between left and center */
+}
+
+.thumbnails-row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 0.75rem; /* gap between thumbnails */
+  flex: 1;
+}
+
+.arrow-btn {
+  width: 40px;
+  height: 40px;
+  cursor: pointer;
+  z-index: 10;
+  position: relative;
+}

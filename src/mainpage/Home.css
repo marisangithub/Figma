@@ -1,0 +1,32 @@
+.hero-section {
+  background-image: url("../assets/Mainimage/back.png"); 
+  background-size: cover;      
+  background-position: center; 
+  background-repeat: no-repeat;
+  height: 120vh;               
+  width: 100%;    
+}
+
+.nav{
+top: 40px;
+}
+
+.big-text{
+    color:white;
+    align-items: center;
+    justify-content: center;
+    margin-top: 90px;
+    font-size: 12vh;
+    font-family: serif;
+    padding-left: 30px;
+
+}
+.btn-abo:hover{
+background-color: #d4b37f;
+color: none;
+}
+.pg-bg{
+    position: relative;
+    display: block;
+    height: 250vh;
+}

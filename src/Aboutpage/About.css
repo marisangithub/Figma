@@ -1,0 +1,102 @@
+.a-col {
+    background-color: #0f1416;
+    background-image: url('./images/design.png');
+    background-repeat: repeat;
+    background-size: 120px 120px;
+    background-position: center;
+    width: 100%;
+    height: 150vh;
+    overflow: hidden;
+}
+
+.ab-head {
+    color: #d4b37f;
+    font-family: serif;
+    margin: 50px;
+    font-size: 6vh;
+    margin-top: 70px;
+}
+
+.building {
+    background-image: url('./images/main.png');
+    width: 1500px;
+    height: 500px;
+    background-repeat: repeat;
+    background-size: 1500px 500px;
+    position: relative;
+    top: -50px;
+}
+.mini-box{
+     background-color: #373E43;
+     position:absolute;
+     width: 1405px;
+     height: 500px;
+     top: 690px;
+     margin-left: 80px;
+     overflow: hidden;
+     align-items: center;
+     justify-content: center;
+}
+.head-2{
+    color: #d4b37f;
+    font-family: serif;
+    font-size: 6vh;
+}
+.position{
+margin-top: 25vh;
+background-color: white;
+height: 100vh;
+overflow: hidden;
+width: 100%;
+}
+
+.rect1{
+position: relative;
+width: 170px;
+height: 150px;
+margin-bottom: 5vh;
+left: 30%;
+}
+.rect2{
+position: relative;
+width: 395px;
+height: 310px;
+left: -50px;
+margin-top: 20%;
+}
+.rect3{
+position: relative;
+width: 140px;
+height: 170px;
+margin-right: 60px;
+margin-left: 60px;
+}
+.rect4{
+position: absolute;
+width: 210px;
+height: 300px;
+right: -1px;
+}
+.rect5{
+position: absolute;
+width: 290px;
+height: 220px;
+margin-top: 60vh;
+right: 50px;
+}
+.center{
+    margin-top: 30vh;
+}
+.dif-text{
+    color: black;
+    font-family: serif;
+    font-size: 2rem;
+}
+.dif-align{
+    justify-content: flex-start;
+}
+.combine{
+    background-color: white;
+    width: 100%;
+    height: 130vh;
+}

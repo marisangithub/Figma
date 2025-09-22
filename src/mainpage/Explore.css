@@ -1,0 +1,62 @@
+.explore-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.explore-heading {
+  position: relative;
+  font-size: 2rem;
+  color: #fff;
+  margin-bottom: 2rem;
+}
+
+.explore-heading::after {
+  content: "EXPLORE?";
+  position: absolute;
+  left: 50%;
+  top: 100%;
+  transform: translateX(-50%);
+  font-size: 2.5rem;
+  color: rgba(255, 255, 255, 0.2);
+  filter: blur(1px);
+  pointer-events: none;
+}
+
+.explore-images {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+  align-items: center;
+}
+
+.img-s {
+  width: 300px;
+  height: 150px;
+  border-radius: 130px;
+  object-fit: cover;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.8);
+  transition: transform 0.3s ease;
+  position: relative;
+}
+
+.img-s:nth-child(1) {
+  transform: rotate(-10deg) translateY(10px);
+  z-index: 2;
+  position:relative;
+  left:7%;
+}
+
+.img-s:nth-child(2) {
+  transform: rotate(0deg);
+  z-index: 3;
+}
+
+.img-s:nth-child(3) {
+  transform: rotate(10deg) ;
+  z-index: 1;
+  position:relative;
+  left: -40px;
+}

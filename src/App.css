@@ -1,0 +1,17 @@
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.d-col{
+  background-color: #1c2124;
+}
+.g-col{
+  background-color: #373E43;
+}
+.main-text{
+    color: #d4b37f;
+    font-family: serif;
+    font-size: 6vh;
+}

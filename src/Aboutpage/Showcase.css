@@ -1,0 +1,52 @@
+.showcase-section {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #3b2314; /* dark brown bg */
+  padding: 60px 100px;
+  position: relative;
+}
+
+.line-img {
+  position: absolute;
+  left: 20px;
+  bottom: 0;
+  width: 150px;
+  height: auto;
+}
+
+.showcase-content {
+  text-align: left;
+  color: #fff;
+  flex: 1;
+  padding-left: 200px; /* offset so text isn’t too left */
+}
+
+.showcase-heading {
+  font-size: 32px;
+  font-weight: 400;
+  margin-bottom: 20px;
+  color: #373E43; /* goldish text */
+}
+
+.showcase-btn {
+  background: #fff;
+  color: #000;
+  padding: 12px 28px;
+  border: none;
+  border-radius: 20px;
+  font-size: 14px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.showcase-btn:hover {
+  background: #d9c29c;
+  color: #fff;
+}
+
+.building-img {
+  width: 250px;
+  height: auto;
+}
